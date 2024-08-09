@@ -165,7 +165,7 @@ header{
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-image: url(/Users/sesiriherath/Desktop/bgveg.png);
+  background-image: url(./bgveg.png);
   background-size: cover;
 }
 table{
