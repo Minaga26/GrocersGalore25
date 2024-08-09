@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries</title>
+    <link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <nav class="topnav">
+            <ul class="navi">
+                <li><a href="#section1">Fruits</a></li>
+                <li><a href="#section2">Vegetables</a></li>
+                <li><a href="#section3">Dairy products</a></li>
+                <li><a href="#section4">Meat and Seafood</a></li>
+                <li><a href="#section5">Baking and Cooking</a></li>
+            </ul>
+            <a href="#table" class="material-symbols-outlined">shopping_cart</a>
+        </nav>
+    </header>
+
+    <div class="tree">
+    <section class="topbanner">
+        
+    </section>
+    </div>
+<!--Fruits-->
+
+    <div class="grid-container1" id="section1">
+
+<div class="hdservices">
+    <div class="cls1"></div>
+    <h2>Fruits</h2>
+    <div class="cls3"></div>
+</div>
+        <section class="home">
+            <section class="container">
+            <div class="scroll-wrapper">
+
+                <article class="card"> 
+                        <div class="image"><img src="./New-Images/banana-removebg-preview.png" alt="Banana-images"></div>
+                        <H3>Banana</H3>
+                        <h4>Rs.100(100g)</h4>
+                        <label for="amount-0">(kg): <input type="number" id="amount-0" name="Banana" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(0)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>
+                </article>
+
+                <article class="card">
+                    <div class="image"><img src="./New-Images/orange.png" alt="Orange-image"></div> 
+                        <H3>Oranges</H3>
+                        <h4>Rs.120(100g)</h4>
+                        <label for="amount-1">(kg): <input type="number" id="amount-1" name="Oranges" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(1)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>                    
+                </article>
+
+                <article class="card">
+                    <div class="image"><img src="./New-Images/bunch-of-red-grapes-removebg-preview.png" alt="Grape-image"></div> 
+                        <H3>Grapes</H3>
+                        <h4>Rs.140(100g)</h4>
+                        <label for="amount-2">(kg): <input type="number" id="amount-2" name="Grapes" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(2)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>                    
+                </article>
+
+                <article class="card">
+                        <div class="image"><img src="./New-Images/mango-removebg-preview.png" alt="Mango-image"></div> 
+                        <H3>Mango</H3>
+                        <h4>Rs.100(200g)</h4>
+                        <label for="amount-3">(kg): <input type="number" id="amount-3" name="Mango" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(3)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>               
+                </article>
+
+                <article class="card">
+                        <div class="image"><img src="./New-Images/dragon_fruit-removebg-preview.png" alt="Dragon Fruit-image"></div> 
+                        <H3>Dragon Fruit</H3>
+                        <h4>Rs.210(200g)</h4>
+                        <label for="amount-4">(kg): <input type="number" id="amount-4" name="Dragon Fruit" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(4)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>               
+                </article>
+
+                <article class="card">
+                        <div class="image"><img src="./New-Images/apple(1).png" alt="Apples-image"></div> 
+                        <H3>Apples</H3>
+                        <h4>Rs.130(200g)</h4>
+                        <label for="amount-5">(kg): <input type="number" id="amount-5" name="Apples" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(5)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>                 
+                </article>
+            </div>
+            </div>
+        </section>
+    </section>
+    
+
+<!--Vegetables-->
+
+         <div class="grid-container1" id="section2">
+<div class="banner">
+<div class="hdservices">
+    <div class="cls1"></div>
+    <h2>Vegetables</h2>
+    <div class="cls3"></div>
+</div>
+</div>
+        <section class="home">
+            <section class="container">
+            <div class="scroll-wrapper">
+
+                <article class="card"> 
+                        <div class="image"><img src="./New-Images/beans.png" alt="Green beans"></div>
+                        <H3>Green beans</H3>
+                        <h4>Rs.130(100g)</h4>
+                        <label for="amount-6">(kg): <input type="number" id="amount-6" name="Green beans" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(6)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>                         
+                </article>
+
+                <article class="card">
+                        <div class="image"><img src="./New-Images/cabbage.png" alt="Cabage"></div> 
+                        <H3>Cabage</H3>
+                        <h4>Rs.120(100g)</h4>
+                        <label for="amount-7">(kg): <input type="number" id="amount-7" name="Cabage" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(7)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>                               
+                </article>
+
+                <article class="card">
+                        <div class="image"><img src="./New-Images/carrot.png" alt="carrot"></div> 
+                        <H3>Carrot</H3>
+                        <h4>Rs.140(100g)</h4>
+                        <label for="amount-8">(kg): <input type="number" id="amount-8" name="Carrot" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(8)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>                       
+                </article>
+
+                <article class="card">
+                        <div class="image"><img src="./New-Images/bellpeper.png" alt="Bell Pepper"></div> 
+                        <H3>Bell Pepper</H3>
+                        <h4>Rs.160(200g)</h4>
+                        <label for="amount-9">(kg): <input type="number" id="amount-9" name="Bell pepper" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(9)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>                             
+                </article>
+
+                <article class="card">
+                        <div class="image"><img src="./New-Images/onion.png" alt="Onions"></div> 
+                        <H3>Onions</H3>
+                        <h4>Rs.90(200g)</h4>
+                        <label for="amount-10">(kg): <input type="number" id="amount-10" name="Onions" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(10)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>                      
+                </article>
+
+                <article class="card">
+                        <div class="image"><img src="./New-Images/brocoli.png" alt="Broccoli"></div> 
+                        <H3>Broccoli</H3>
+                        <h4>Rs.180(200g)</h4>
+                        <label for="amount-11">(kg): <input type="number" id="amount-11" name="Broccoli" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(11)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>         
+                </article>
+                        </div>
+</div>
+            </section>
+        </section>
+
+<!--DairyProducts-->
+
+<div class="grid-container1" id="section3">
+
+    <div class="banner">
+    <div class="hdservices">
+        <div class="cls1"></div>
+        <h2>DairyProducts</h2>
+        <div class="cls3"></div>
+    </div>
+</div>
+
+    <section class="home">
+        <section class="container">
+            <div class="scroll-wrapper">
+                                
+                <article class="card"> 
+                        <div class="image"><img src="./New-Images/milk.png" alt="Dairy1"></div>
+                        <H3>Milk</H3>
+                        <h4>Rs.220(1)</h4>
+                        <label for="amount-12">(per): <input type="number" id="amount-12" name="Milk" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(12)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>    
+                </article>
+            
+                <article class="card"> 
+                        <div class="image"><img src="./New-Images/cheese.png" alt="Dairy2"></div>
+                        <H3>Cheese</H3>
+                        <h4>Rs.180(1)</h4>
+                        <label for="amount-13">(per): <input type="number" id="amount-13" name="Cheese" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(13)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>    
+                </article>
+            
+                <article class="card"> 
+                        <div class="image"><img src="./New-Images/yoghurt.png" alt="Dairy3"></div>
+                        <H3>Yoghurt</H3>
+                        <h4>Rs.120(1)</h4>
+                        <label for="amount-14">(per): <input type="number" id="amount-14" name="Yoghurt" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(14)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>    
+                </article>
+            
+                <article class="card"> 
+                        <div class="image"><img src="./New-Images/butter.png" alt="Dairy4"></div>
+                        <H3>Butter</H3>
+                        <h4>Rs.220(1)</h4>
+                        <label for="amount-15">(per): <input type="number" id="amount-15" name="Butter" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(15)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>    
+                </article>
+
+                <article class="card"> 
+                        <div class="image"><img src="./New-Images/choclate.png" alt="Curd"></div>
+                        <H3>Curd</H3>
+                        <h4>Rs.170(1)</h4>
+                        <label for="amount-16">(per): <input type="number" id="amount-16" name="Curd" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(16)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>    
+                </article>
+
+                <article class="card"> 
+                        <div class="image"><img src="./New-Images/cooking-cheese.png" alt="Cooking Cheese"></div>
+                        <H3>Cooking Cheese</H3>
+                        <h4>Rs.150(1)</h4>
+                        <label for="amount-17">(per): <input type="number" id="amount-17" name="Cooking Cheese" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(17)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>    
+                </article>
+            </div>
+        </div>
+    </section>
+</section>
+
+    <!--Meat and Seafood-->
+
+    <div class="grid-container1" id="section4">
+
+<div class="banner">
+<div class="hdservices">
+    <div class="cls1"></div>
+        <h2>Meat & Seafood</h2>
+    <div class="cls3"></div>
+</div>
+</div>
+        <section class="home">
+            <section class="container">
+            <div class="scroll-wrapper">
+
+                <article class="card"> 
+                        <div class="image"><img src="./New-Images/1-2.png" alt="Chicken"></div>
+                        <H3>Chicken</H3>
+                        <h4>Rs.100(100g)</h4>
+                        <label for="amount-18">(per): <input type="number" id="amount-18" name="Chicken" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(18)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>    
+                </article>
+        
+                <article class="card">
+                        <div class="image"><img src="./New-Images/2-2.png" alt="Sausages"></div> 
+                        <H3>Sausages</H3>
+                        <h4>Rs.120(100g)</h4>
+                        <label for="amount-19">(per): <input type="number" id="amount-19" name="Sausages" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(19)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>    
+                </article>
+        
+                <article class="card">
+                        <div class="image"><img src="./New-Images/5.png" alt="Prawns"></div> 
+                        <H3>Prawns</H3>
+                        <h4>Rs.140(100g)</h4>     
+                        <label for="amount-20">(per): <input type="number" id="amount-20" name="Prawns" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(20)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>    
+                </article>
+        
+                <article class="card">
+                        <div class="image"><img src="./New-Images/3-2.png" alt="Salmon"></div> 
+                        <H3>Salmon</H3>
+                        <h4>Rs.100(200g)</h4>
+                        <label for="amount-21">(per): <input type="number" id="amount-21" name="Salmon" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(21)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>          
+                                
+                </article>
+        
+                <article class="card">
+                        <div class="image"><img src="./New-Images/4-2.png" alt="Seer fish"></div> 
+                        <H3>Seer fish</H3>
+                        <h4>Rs.100(200g)</h4>
+                        <label for="amount-22">(per): <input type="number" id="amount-22" name="Seer fish" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(22)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>    
+                            
+                </article>
+        
+                <article class="card">
+                        <div class="image"><img src="./New-Images/eggs.png" alt="Eggs"></div>
+                        <H3>Eggs</H3>
+                        <h4>Rs.100(200g)</h4>
+                        <label for="amount-23">(per): <input type="number" id="amount-23" name="Eggs" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(23)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div> 
+
+                </article>
+            </div>
+            </div>
+        </section>
+        </section>
+
+<!--Baking and cooking-->
+
+<div class="grid-container1" id="section5">
+
+    <div class="banner">
+    <div class="hdservices">
+        <div class="cls1"></div>
+        <h2>Baking & Cooking</h2>
+        <div class="cls3"></div>
+    </div>
+</div>
+        <section class="home">
+            <section class="container">
+            <div class="scroll-wrapper">
+
+                <article class="card"> 
+                        <div class="image"><img src="./New-Images/powder.png" alt="Bread"></div>
+                        <H3>Baking Powder</H3>
+                        <h4>Rs.130 (1)</h4>
+                        <label for="amount-24">(per): <input type="number" id="amount-24" name="BakingPowder" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(24)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>
+                </article>
+    
+                <article class="card">
+                        <div class="image"><img src="./New-Images/salt2.png" alt="Salt"></div> 
+                        <H3>Salt</H3>
+                        <h4>Rs.120 (1)</h4>
+                        <label for="amount-25">(per): <input type="number" id="amount-25" name="Salt" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(25)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>
+
+                </article>
+    
+                <article class="card">
+                        <div class="image"><img src="./New-Images/honey.png" alt="Honey"></div> 
+                        <H3>Honey</H3>
+                        <h4>Rs.160 (1)</h4>
+                        <label for="amount-26">(per): <input type="number" id="amount-26" name="Honey" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(26)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>
+
+                </article>
+    
+                <article class="card">
+                        <div class="image"><img src="./New-Images/cupcke.png" alt="Cupcake"></div> 
+                        <H3>Cupcake</H3>
+                        <h4>Rs.110 (1)</h4>
+                        <label for="amount-27">(per): <input type="number" id="amount-27" name="Cupcake" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(27)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>
+
+                </article>
+    
+                <article class="card">
+                        <div class="image"><img src="./New-Images/cookie.png" alt="image"></div> 
+                        <H3>Cookies</H3>
+                        <h4>Rs.80 (1)</h4>
+                        <label for="amount-28">(per): <input type="number" id="amount-28" name="Cookies" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(28)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>
+
+                </article>
+    
+                <article class="card">
+                        <div class="image"><img src="./New-Images/bread2.png" alt="image"></div>
+                        <H3>Crosant</H3>
+                        <h4>Rs.200 (1)</h4>
+                        <label for="amount-29">(per): <input type="number" id="amount-29" name="Crosant" step="1"></label>
+                        <div class="icons">
+                            <button onclick="addToCart(29)"><span class="material-symbols-outlined">shopping_cart_checkout</span></button>
+                            <button><span class="material-symbols-outlined">favorite</span></button>
+                        </div>
+    
+                </article>
+                </div>
+            </div>
+    </section>
+</section>
+
+
+<!--TABLE-->
+
+<table id="table">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price(Kg)</th>
+            <th>Sub Total</th>
+            <th>Remove</th>
+        </tr>
+    </thead>
+    <tbody>
+      <!--items to be added here-->
+    </tbody>
+</table>
+     
+
+<script src="./main.js"></script>
+<script src="./SUB.js"></script>
+
+
+ </body>
+</html>
